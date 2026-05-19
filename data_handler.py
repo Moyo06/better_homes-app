@@ -13,12 +13,12 @@ def get_houses_by_state(state):
     df = load_data()
     return df[df["state"].str.lower() == state.lower()]
 
-def get_affordable_houses(state, min_price=200000, max_price=450000):
+def get_affordable_houses(state, min_price=400000, max_price=700000):
     df = get_houses_by_state(state)
 
     return df[df
-        (df["monthly_price"] >= min_price) &
-        (df["monthly_price"] <= max_price)
+        (df["yearly_price"] >= min_price) &
+        (df["yearly_price"] <= max_price)
     ]
 
 def get_house_by_id(house_id):
