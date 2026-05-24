@@ -1,2 +1,13 @@
-"# m.iyandaCOS102" 
-"# m.iyandaCOS102" 
+Better homes is a digital platform that aims at helping various inidividuals find safe and affordable houses in less crowded areas. This project was made based on our given artwork, Movement which focuses, based on our own interpretation, on how forced migration and overpopulation affects people's ability to secure stable living conditions.
+
+This app provides a simple and guided experience for users looking for housing. It begins with the splash screen which has a "Get Started" button. Once clicked, the user is taken to the home screen where they can select  a state from a list of locations the app supports: Lagos, Ogun, Abuja, Oyo, Edo and Anambra. After choosing a state, the app displays a list of houses available in that region. Each housing card has key information like house type, price per year, and city location within the state. If a user sees and selects a house that interests them, they are taking to the details screen which has more information about the house of interest and an option to book a tour.
+
+If the user deems the house worths of a tour, they are directed to a booking form. Here, they are to enter their convenient date using a calender function and a time slot from 10A.M. TO 4P.M. They are also to enter their active phone number for future contact. Once the form is complete for submission, a confirmation screen is displayed summarising the booking details. This assures the user and confirms that the request has been recorded.
+
+The app also has some additional features to improve the user experience:
+1. A Favourites page: Users can save houses they like for future reference. This can be done by clicking the heart icon on the top right corner of the house details screen. It makes it easier for the user to compare possible options.
+2. A Bookings page: This page shows tours that a user has already booked, helping them to track future appointments.
+3. A Feedback page: Users can write about their experience with the app, pointing out pain points and offering solutions for overall improvement.This gives us, the developers an idea on how to understand the needs of our target audience better and improve user centered design.
+
+The app uses a cleaned dataset of houses across different Nigerian states called Houses_in_Nigeria_updated. The data handler filteres those houses by supporting states and a price from 400,000 to 700,000 Naira, ensuring that users only see affordable houses. The interface was built with Tkinter while images were handled using Pillow. Pandas was adopted for data processing and the OS module helped with file paths and loading resources. The entire project follows an object-oriented programming structure.
+
